@@ -1,11 +1,19 @@
 @import "tailwindcss";
-
-*{
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');  
 
 body{
-    background-color: black;
+    font-family: 'Funnel Display', sans-serif;
+    height: 100dvh;
+    background: linear-gradient(to bottom, rgb(135, 42, 42), rgb(128, 0, 255)) no-repeat;
     color: white;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    font-size: 36px;
+    line-height: 1.111111;
+    border-radius: 0px 0px 16px 16px;
 }
