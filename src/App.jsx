@@ -19,3 +19,10 @@ export const App = () => {
     </>
   )
 }
+
+/*
+  To-Do:
+    Finish News displayer ❌
+    Finish News creator ❌
+    Done ❌
+*/
